@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "donutauction",
+  "version": "${version}",
+  "name": "Donut Auction",
+  "description": "Client-side auction helper: pick an item, set a 1-60s timer, highest bid wins.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.donutauction.DonutAuctionClient"] },
+  "depends": { "fabricloader": ">=0.19.1", "minecraft": ">=26.2-", "fabric-api": "*" }
+}
